@@ -1,0 +1,23 @@
+Présentation du HTML
+
+Le HTML (« HyperText Mark-Up Language ») est un langage dit de « marquage » (de « structuration » ou de « balisage ») dont le rôle est de formaliser l'écriture d'un document avec des balises de formatage. Les balises permettent d'indiquer la façon dont doit être présenté le document et les liens qu'il établit avec d'autres documents. 
+
+Le langage HTML permet notamment la lecture de documents sur Internet à partir de machines différentes, grâce au protocole HTTP, permettant d'accèder via le réseau à des documents repérés par une adresse unique, appelée URL. 
+
+On appelle World Wide Web (noté WWW) ou tout simplement Web (mot anglais signifiant toile) la "toile virtuelle" formée par les différents documents (appelés « pages web ») liés entre-eux par des hyperliens. 
+
+Qu'est-ce-qu'un site web ?
+
+Les pages web sont généralement organisées autour d'une page d'accueil, jouant un point central dans la navigation à l'aide des liens hypertextes. Cet ensemble cohérent de pages web liées par des liens hypertextes et articulées autour d'une page d'accueil commune est appelée site web. 
+
+Le Web est ainsi une énorme archive vivante composée d'une myriade de sites web proposant des pages web pouvant contenir du texte mis en forme, des images, des sons, des vidéo, etc. 
+
+Le principe du Web
+
+Le web est composé de pages web stockées sur des serveurs web, c'est-à-dire des machines connectées à Internet en permanence et chargées de fournir les pages web demandées. Chacune des pages web, et plus généralement toute ressource en ligne (image, vidéo, musique, animation, etc.), est repérée par une adresse unique appelée URL. 
+
+Les navigateurs web
+
+L'élément clé pour la navigation au sein des pages web est le navigateur (en anglais browser), c'est-à-dire le logiciel client capable d'interroger les serveurs web, d'exploiter leurs résultats et de mettre en page les informations grâce aux instructions contenues dans la page HTML.
+
+Parmi les principaux navigateurs utilisés sur Internet, citons notamment les suivants : Mozilla Firefox, Microsoft Internet Explorer, Netscape Navigator, Safari.
