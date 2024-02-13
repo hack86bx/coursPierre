@@ -1,0 +1,66 @@
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0; /* padding-left:0 */
+    height: 40px;
+}
+
+/* Utilisation de float pour mettre les items les uns à côté des autres, horizontalement */
+/* tous les items de la liste sont flottants à gauche, donc le suivant se met à sa droite */ 
+/* Approche à éviter : float n'est pas conçu pour cela !!! */
+/*
+li {
+    float:left;
+}
+*/
+
+/* Autre approche : avec inline-block */
+/* Pas besoin d'utiliser clear pour les éléments suivants */
+li {
+    display: inline-block;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 30px;
+}
+
+/* Pour annuler le float:left des LI */
+/*
+main {
+    clear: left;
+}
+*/
+
+#tableau {
+    display: table;
+}
+
+.rangee {
+    display: table-row;
+}
+
+.rangee div {
+    display: table-cell;
+    padding: 10px;
+}
+
+.rangee div p {
+    text-align: right;
+    margin:0;
+}
+
+input[type=text], input[type=password], input[type=submit] {
+    border-radius: 10px;
+    border: 1px solid aqua;
+    padding: 5px;
+}

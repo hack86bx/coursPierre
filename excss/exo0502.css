@@ -1,0 +1,47 @@
+.containerForm{
+    display: flex;
+    flex-direction: column;
+}
+#name,#prenom,#message,#langue,{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+#radio,#rgpd{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1em;
+}
+textarea{
+    resize: none;
+}
+#radio>label{
+    margin-right: 2em;
+}
+@media screen and (min-width:640px) and 
+(max-width:1200px){
+    #name #prenom #radio {
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 95vw;
+    }
+    #name label, #prenom label {
+        width: 100px;
+        flex: 1 0 100px;
+    }
+    #name , #prenom{
+        width: 85vw;
+    }
+    #radio
+}
+@media screen and (min-width:1200px) {
+    .containerForm{
+        width: max-content;
+        flex-direction: row;
+
+
+    }
+}
+#bord{
+    border-radius: 1px solid black;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exo0502.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="containerForm">
+    <form action="/ma-page-de-traitement" method="post">
+
+                <h1>Formulaire de contact</h1>
+                <fieldset>
+                    <div id="bord">
+                <div id="name"><label for="name">Nom&nbsp;:</label></div>
+                    <input type="text" id="name" name="user_name" />
+    
+            
+                <div id="prenom"><label for="prenom">Prénom&nbsp;:</label></div>
+                    <input type="text" id="prenom" name="user_prenom" />
+    
+                </br>
+                <div id="radio">
+                    <input type="radio" id="Mâle" name="sexe" value="Mâle" checked />
+                    <label for="">Mâle</label>
+                    <input type="radio" id="Femme" name="sexe" value="Femme" />
+                    <label for="Femme">Femelle</label>
+                </div>
+                   
+            
+                <div id="langue"><label for="langue-select">Langue:</label>
+
+                    <select name="Langue" id="LangueSelect">
+                        <option value="">--Choisir la langue--</option>
+                        <option value="Français">Français</option>
+                        <option value="Néerlandais">Néerlandais</option>
+                        <option value="Anglais">Anglais</option>
+                    </select>
+                    </div>
+                </div>
+            </fieldset>   
+
+            
+                    
+            
+                </br>
+                </br>
+                <fieldset>           
+                <div id="rgpd"><legend>Stockage des données RGPD:</legend>
+                    <input type="checkbox" id="scales" name="scales" checked required />
+                    <label for="Valid">Valider</label>
+                </br>
+                
+                <div id="message"><label for="msg">Message&nbsp;:</label>
+                    <textarea id="msg" name="user_message" cols="30" rows="10" maxlength="1024"></textarea>
+                </div>  
+                </br>
+                </div>
+                </fieldset>
+                </br>
+       
+                <input type="submit" value="Envoyer le formulaire" />
+                </br>
+    </form>
+    </div>
+</body>
+</html>

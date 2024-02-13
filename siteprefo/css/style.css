@@ -1,0 +1,39 @@
+p {
+    color: red;
+    font-style: italic;
+    font-family: fantasy;
+}
+body{
+    background-color: yellow;
+}
+li{
+    color: blue;
+}
+dl{
+    color: green;
+    font-size: x-large;
+    font-family: monospace;
+}
+p a {
+    background-color: violet;
+    font-style: normal;
+}
+nav a {
+    
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 40px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    vertical-align: top;
+    line-height: 1;
+    display: inline-block;
+    clear: both;
+    visibility: visible;
+    text-align: center;
+    padding: 15px 25px;
+   
+    
+    
+}

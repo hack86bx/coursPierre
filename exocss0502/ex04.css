@@ -1,0 +1,41 @@
+body {
+    margin: 2px;
+}
+
+.conteneur {
+    
+    color: #444;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: fuchsia;
+}
+
+.boite {
+    margin: 1px;
+    width: calc((100% - 25px)/4);
+   
+}
+
+.boite img {
+    border-radius: 1px;
+    border: 2px solid black;
+    width: 96%;
+   
+}
+
+.boite figcaption {
+    padding: 0 1px;
+    text-align: center;
+   
+}
+
+  
+
+@media screen and (max-width: 600px) {
+    .conteneur {
+    flex-direction: column;
+    }
+}
+  
